@@ -1,0 +1,34 @@
+body{
+    background-color: antiquewhite;
+}
+.lakier{
+    margin:5px;
+}
+.obraz{
+    width: 200px;
+    height: 200px;
+    float: left;
+    background-color: antiquewhite;
+}
+.opis{
+    float: left;
+    width: 200px;
+}
+.reklama{
+    background-color: darksalmon;
+    margin: 5px;
+    width: 160px;
+    display: block;
+    margin: auto;
+    margin-bottom: 5px;
+}
+.pusty{
+    clear:both;
+}
+h3,h4,p{
+    text-align: center;
+}
+button{
+    display: block;
+    margin: auto
+}

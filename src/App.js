@@ -1,23 +1,18 @@
-import logo from './logo.svg';
+import Lakier from './Lakier';
 import './App.css';
+
+import f1 from './img/f1.png';
+
+const lakiery = [
+  {nr:1, "odcien":"fioletowy", nazwa:"No Risk No Story","cena":27.99,"opis":"Oszczędzasz 33%", "img":f1},
+
+];
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>NEONAIL</h1>
+      <Lakier lakier={lakiery[0]} />
     </div>
   );
 }
