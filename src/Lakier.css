@@ -1,8 +1,14 @@
 body{
-    background-color: antiquewhite;
+    
 }
 .lakier{
+    margin:5px; 
+    width: 500px;
+}
+.lakier:hover{
     margin:5px;
+    border: 2px black solid;
+    border-radius: 10px;
 }
 .obraz{
     width: 200px;
@@ -17,7 +23,7 @@ body{
 .reklama{
     background-color: darksalmon;
     margin: 5px;
-    width: 160px;
+    width: 260px;
     display: block;
     margin: auto;
     margin-bottom: 5px;

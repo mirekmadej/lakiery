@@ -2,6 +2,10 @@ import './Lakier.css';
 
 function Lakier(props)
 {
+    function dodaj(e)
+    {
+        alert("dodano do koszyka: "+ e);
+    }
     return(
         <div className='lakier'>
             <div className='obraz'>
@@ -12,7 +16,7 @@ function Lakier(props)
                 <p>odcień: {props.lakier.odcien}</p>
                 <h4>Cena {props.lakier.cena} zł</h4>
                 <p className='reklama'>{props.lakier.opis}</p>
-                <button>Dodaj do koszyka</button>
+                <button onClick={()=>dodaj(props.lakier.nazwa)}>Dodaj do koszyka</button>
             </div>
             <div className='pusty'></div>
         </div>

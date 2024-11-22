@@ -1,4 +1,13 @@
 h1 {
   text-align: center;
 }
+.przyciski{
+  width: 600;
+  text-align: center;
+  float: left;
+}
+.obrazek:hover{
+  border: 2px solid darkgray;
+  border-radius: 10px;
+}
 
